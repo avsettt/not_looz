@@ -1,0 +1,384 @@
+
+        
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background: black;
+    width: 100%;
+     display: flex;
+}
+
+.global_name{
+    color: white;
+    font-size: 24px;
+    margin-top: 58px;
+    margin-left: 12%;
+    margin-right: 25%;
+}
+
+.menu{
+    width: 100%;
+     display: flex;
+    display: inline-block;
+    margin-top: 58px;
+}
+.menu a{
+text-decoration: none;
+color: white;
+    text-transform: uppercase;
+   margin-right: 12px;
+    margin-left: 12px;
+    cursor: pointer;
+    padding-bottom: 11px;
+}
+.icon{
+ display: none;
+}
+.menu a:hover{
+    border-bottom: 4px solid #fcac45;
+}
+
+.list1{
+    width: 100%;
+   display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.list1 .welcome{
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 420px;
+    
+}
+.list1 .welcome h1{
+    text-transform: uppercase;
+    font-size: 44px;
+    color: #8c8c8c;
+}
+.list1 .welcome p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #d4d4d4;
+}
+.decor{
+    color: #fcac45;
+} 
+
+.list2{
+    background-color: white;
+    width: 100%;
+}
+.list2 .content{
+    text-align: center;
+    margin-top: 105px;
+    
+   
+}
+.list2 .content .left{
+    float: left;
+     margin-left: 12%; 
+     margin-bottom: 100px;
+}
+.list2 .content .right{
+    float: right;
+    margin-right: 7.5%;
+    
+}
+.list2 .content .right .us{
+    font-size: 34px;
+    color: #2f2f2f;
+    padding-bottom: 21px;
+    border-bottom: 4px solid  #fcac45;
+    display: block;
+    margin-bottom: 55px;
+     font-weight: lighter;
+    text-align: left;
+    width: 410px;
+    text-transform: uppercase
+}
+.list2 .content .right .us .dicor{
+    font-weight: bold;
+}
+.list2 .content .right p{
+    font-size: 18px;
+    font-weight: 300;
+    color: #8f8f8f;
+   text-align: left;
+}
+.list2 .content .right ul{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.list2 .content .right ul li{
+    margin-bottom: 21px;
+    font-size: 16px;
+     font-style: italic;
+    color: #5a5a5a;
+    list-style-type: none;
+}
+.list2 .content .right ul li .fix{
+    font-weight: bold;
+    font-size: 18px;
+}
+.list2 .content .right ul li img{
+    margin-right: 5px;
+}
+
+.list3{
+    width: 100%;
+    background-color: black;
+     clear: both;
+    height: 750px;
+}
+.list3 h1{
+    color:white;
+    width: 222px;
+    font-size: 44px;
+    border-bottom: 4px solid  #fcac45;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.list3 .team {
+    display: flex;
+    width: 1070px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 137px;
+        
+/*
+    margin-left: 250px;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+*/
+/*_____________________________________________*/
+}
+
+.list3 .team .timefix{
+    margin-right: 3%;
+   
+    
+    
+}
+
+.list3 .team .timefix img{
+    width: 127px;
+    height: 130px;
+    border-radius: 200px;
+    margin-left: 55px;
+    
+}
+.list3 .team .timefix p{
+    color: white;
+    text-align: center;
+    width: 245px;
+}
+.list3 .team .timefix .name{
+  margin-top: 20px;
+  margin-bottom: 36px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.list3 .team .timefix .long{
+    margin-left: -1px
+}
+
+.list3 .team .timefix .port{
+
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+.list4{
+    width: 100%;
+    display: flex;
+}
+.list4 .main{
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.list4 .main h1{
+    border-bottom: 4px solid #fcac45;
+    margin: 0 auto;
+    margin-top: 110px;
+    margin-bottom: 95px;
+    width: 300px;
+    font-size: 44px;
+    font-weight: 500
+}
+.list4 .main p{
+    text-align: center;
+    color: #ababab;
+} 
+.list4 .main p:last-child{
+    margin-bottom: 105px;
+}
+
+
+
+
+
+
+
+ @media screen and (max-width: 1160px){
+     .list3{
+         text-align: center;
+         height: 1000px
+     }   
+     .list3 .team{
+            display: inline-block;
+           width: 500px;
+            
+
+           
+         
+     }
+     .list3 .team .block1{
+         display: inline-block;
+    
+     }
+     
+     .list3 .team .timefix .port:last-child{
+         margin-bottom: 50px;
+     }
+     .list3 .team .timefix .fix img{
+         margin: 0px;
+     }
+}
+
+@media screen and (max-width: 1160px){
+    
+}
+
+
+
+
+@media screen and (max-width: 1230px){
+    .global_name{
+        margin-right: 15%;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .global_name{
+        margin-right: 5%;
+        margin-left: 6%;
+    }
+}
+@media screen and (max-width: 900px){
+    .menu a{
+        display: none;
+    }
+    .menu a.icon{
+        display: block;
+        font-size: 25px;
+        float: right;
+        margin-right: 20px;
+        margin-top: -7px;
+        position: absolute;
+        right: 5%;
+    }
+/*    нужно чтобы иконка отолкнулась в право*/
+    nav{
+        width: 100%;
+    }
+    
+
+.jscod a{
+    flex-direction: column;
+    display: block;
+   position: relative;
+    top: 65px;
+    right: 190px
+    
+}
+    .jscod a.icon{
+    top: 58px;
+
+}
+    .jscod{
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width: 1250px){
+.list2 .content .left{
+    float: none;
+      margin: 0 auto;
+     margin-bottom: 100px;
+}
+.list2 .content .right{
+   margin: 0 auto;
+    float: none;
+    
+    
+}
+    .list2 .content .right .us{
+        margin: 0 auto;
+    }
+    
+ 
+
+
+.list2 .content .right ul li{
+    margin: 0px auto;
+    margin-bottom: 21px;
+    font-size: 16px;
+     font-style: italic;
+    color: #5a5a5a;
+    list-style-type: none;
+}
+    .list2 .content .right .centr p{
+        text-align: center;
+    }
+    .list2 .content .right .centr .lack {
+        margin: 0 auto;
+       
+        width: 400px
+    }
+   .list2 .content .right .centr  {
+        text-align: left;
+    }
+
+}
+@media screen and (max-width: 572px){
+    .list2 .content .left img{
+        width: 400px;
+    }
+@media screen and (max-width: 460px){
+    .list2 .content .left img{
+        width: 300px;
+    }    
+    .list2 .content .right .us {
+        font-size: 20px;
+        padding-left: 10px;
+    }
+    .list2 .content .right p{
+        font-size: 14px;
+        
+    }
+    .list2 .content .right ul li{
+        font-size: 12px;
+        
+    }
+   @media screen and (max-width: 660px){
+     .list1 .welcome{ 
+    margin-bottom: 200px;
+}
+}
+ 
+       
+        
+    }
+    
+   
+        
