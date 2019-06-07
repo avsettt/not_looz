@@ -115,9 +115,12 @@ color: white;
 .list2 .content .right ul{
     margin-top: 50px;
     text-align: left;
+    width: 300px;
 }
 
 .list2 .content .right ul li{
+ 
+    width: 300px;
     margin-bottom: 21px;
     font-size: 16px;
      font-style: italic;
@@ -244,7 +247,9 @@ color: white;
      }
      .list3 .team .block1{
          display: inline-block;
-    
+     }
+          .list3 .team{
+         display: inline-block;
      }
      
      .list3 .team .timefix .port:last-child{
@@ -368,17 +373,46 @@ color: white;
     }
     .list2 .content .right ul li{
         font-size: 12px;
+     
         
-    }
+        
+        
+    }}
    @media screen and (max-width: 660px){
      .list1 .welcome{ 
     margin-bottom: 200px;
 }
 }
  
-       
+    @media screen and (max-width: 470px){
+        .list3 .team .block1{
+        flex-direction: column;
+            
+        }
+        
+        .list3 *{
+            margin-left: 0px;
+            margin-right: 0px;
+            
+        }
+        .team{
+            width: 100% !important;
+        }
+        .list3{
+            height: 1700px
+        }
+        .list2 .content .right .us{
+            width: 300px;
+            text-align: center;
+        }
+        .list2 .content .right .centr .lack {
+        width: 300px    
+    }
+      
         
     }
+        
+    
     
    
         
