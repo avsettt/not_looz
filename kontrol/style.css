@@ -5,6 +5,9 @@
     padding: 0;
     margin: 0;
 }
+.wrapper{
+   text-align: center;
+}
 body{
     font-family: 'Open Sans', sans-serif;
 }
@@ -300,7 +303,6 @@ color: white;
     margin-top: 2px;
 }
 .list6{
-    height: 1330px;
     width: 100%;
     text-align: center;
 }
@@ -318,12 +320,106 @@ color: white;
 }
 .list6 p {
     margin-top: 60px;
-    width: 1120px;
     display: inline-block;
     color: #6c6c6c;
+    margin-bottom: 175px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.photo_card{
+    display: inline-block;
+}
+.photo_card img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.photo_card img:first-child{
+    margin-left: 0px;
+}
+.photo_card:last-child{
+    margin-bottom: 100px;
+}
+
+.photo_card img:hover{
+    opacity: 0.9;
+}
+.help{
+    display: none;
+    font-size: 12px;
+}
+
+.list7{
+    width: 100%;
+    background: black;
+}
+
+.list7 .wrapper h1{
+color: white;
+padding-bottom: 30px;
+padding-top: 100px;
+font-size: 44px;    
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.list7 .wrapper h1 .fix{
+    font-weight: lighter;
+}
+
+.list7 .wrapper p{
+text-transform: uppercase;   
+color: white;
+margin-top: 120px;
+font-size: 18px;
+margin-left: 19%;
+margin-right: 19%;
+color: #e7e7e7;
+}
+
+.list7 .wrapper .log{
+    margin-top: 50px;
+    padding-bottom: 170px;
+    text-transform: capitalize
 }
 
 
+
+
+@media screen and (max-width: 1160px){
+
+    .help{
+    display: inline;
+        margin-top: 0px;
+}
+    
+    .photo_card img:not(:first-child){
+             display: none;
+         }
+    .list6 p {
+        margin-bottom: 105px;
+    }
+    
+    .photo_card:last-child{
+        margin-bottom: 50px;
+    }
+
+   .photo_card img{
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+   .lock img{
+       display: inline-block !important;
+       
+    }
+    .lock{
+        padding-top: 20px;
+        margin-bottom: 20px;
+        border: 10px solid;
+        border-radius: 20px;
+        background: #646d6c;
+    }
+     
+}    
 
 
 
@@ -359,7 +455,7 @@ color: white;
     width: auto;
 }
      
-
+}
 
  @media screen and (max-width: 1160px){
      .list3{
@@ -390,6 +486,12 @@ color: white;
      }
 }
 
+     
+      
+     
+     
+     
+     
 
 
 
@@ -420,7 +522,7 @@ color: white;
         position: absolute;
         right: 5%;
     }
-/*    нужно чтобы иконка отолкнулась в право*/
+/*    нужно чтобы иконка отолкнулась в право */
     nav{
         width: 100%;
     }
