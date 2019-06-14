@@ -92,10 +92,15 @@ color: white;
 .list2{
     background-color: white;
     width: 100%;
+    margin-top: 105px;
+}
+.anchor-fix{
+    margin: 0px;
+    padding: 0px;
 }
 .list2 .content{
     text-align: center;
-    margin-top: 105px;
+    
     
    
 }
@@ -438,6 +443,8 @@ color: black;
     margin-bottom: 30px;
     
 }
+
+
 .sub_fix{
     margin-right: 24px;
 }
@@ -445,11 +452,12 @@ color: black;
     width: 360px;
     height: 43px;
     float: left;
+    margin-top: 5px;
 }
 textarea{
     width: 100%;
     height: 160px;
-        
+    margin-top: 5px;
 }
 
 .red{
@@ -467,7 +475,15 @@ textarea{
     border: 0px solid;
 }
 
-
+footer{
+    width: 100%;
+    background: #222222;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+footer .wrapper img{
+    margin-right: 14px
+}
 
 
 
