@@ -562,7 +562,13 @@ footer .wrapper img{
 }
     
 }
-
+.baton_class{
+    width: 166px;
+    height: 38px;
+    background: #fcac45;
+    margin-top: 33px;
+    float: right;
+}
 
 
 
@@ -686,6 +692,11 @@ footer .wrapper img{
         border-radius: 20px;
         background: #646d6c;
     }
+    .new_wrapper{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
      
 }    
 
