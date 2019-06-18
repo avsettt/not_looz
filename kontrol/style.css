@@ -547,6 +547,13 @@ footer .wrapper img{
     margin-right: 14px
 }
 
+footer .wrapper img:hover{
+    opacity: 0.6;
+
+    
+        
+}
+
 @media screen and (max-width: 680px){
     .form_styl{
     width: 90%;
